@@ -1,0 +1,52 @@
+/*	*/
+.result-table{
+	padding: 20px;
+}
+ul{
+	padding: 0;
+}
+li{
+	display: block;
+}
+
+/*	*/
+.breakdown{
+	font-size: 0.95rem;
+}
+.breakdown > div{
+	text-align: center;
+	border: 1px solid #ccc;
+	border-right: none;
+}
+.breakdown > div:last-child{
+	border-right: 1px solid #ccc;
+}
+.breakdown ul > li{
+	padding-bottom: 10px;
+}
+.breakdown ul>li:first-child{
+	border-bottom: 1px solid #ccc;
+}
+#course-codes-wrap{
+	width: 18%;
+}
+#course-title-wrap{
+	width: 52%;
+}
+#course-unit-wrap{
+	width: 10%;
+}
+#course-score-wrap{
+	width: 10%;
+}
+#course-grade-wrap{
+	width: 10%;
+}
+
+/*	*/
+.aggregates{
+	font-size: 0.95rem;
+}
+.aggregates > div{
+	width: 30%;	
+}

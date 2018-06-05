@@ -24,7 +24,7 @@ img{
 }
 
 #page-wrap{
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -130,7 +130,6 @@ header{
 	height: 480px;
 	margin-top: 20px;
 	border: 1px solid #ccc;
-	padding: 20px;
 	
 	background: #fff;
 }
