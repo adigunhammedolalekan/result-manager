@@ -6,15 +6,26 @@ form{
 	
 }
 
-input{
+input, select{
 	box-sizing: border-box;
 	width: 100%;
 	margin: 7.5px 0px;
 	padding: 10px;
-	border: 1px solid #ddd;
+	border: 1px solid #ccc;
 	
+	font-size: 0.95rem;
+	
+	background: #fff;
 }
-
+.input-100{
+	width: 100%;
+}
+.input-50{
+	width: 49.5%;
+}
+.input-30{
+	width: 32%;
+}
 
 /*
  *
@@ -38,4 +49,23 @@ input{
 	
 	font-size: 1.05rem;
 	color: #fff;
+}
+
+/*
+ *
+ */
+.rcp-form > div:first-child{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.rcp-form > input:last-child{
+	float: right;
+	
+	margin-top: 25px;
+	
+	font-size: 1.05rem;
+	font-weight: bold;
+	background: #4A9B61;
+	color: #ffffff;
 }
