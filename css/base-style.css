@@ -1,0 +1,144 @@
+/*
+ *	Author: Oguntuberu Nathan O.
+ *	Date: 05-06-2018
+ *
+*/
+html{
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+body{
+	margin: 0px;
+}
+
+div, section, header, footer, h1, h2, h3, h4, h5, h6, nav, ul, li, form, table, tr, td{
+	box-sizing: border-box;
+	float: left;
+	width: 100%;
+	height: auto;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+
+#page-wrap{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	
+	background: #eee;
+}
+/*
+ *
+*/
+#index-body{
+	
+	background: url('../media/bookheart.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#index-body > #page-wrap{
+	background: rgba(0, 0, 0, 0.5);
+}
+
+/*
+ *
+ */
+.center-form-wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	
+	height: 100%;
+}
+
+/*
+ *
+ *
+ */
+header{
+	height: 10vh;
+	
+	display: flex;
+	flex-direction: row;
+	
+	border-bottom: 1px solid #0F7389;
+	background: #fff;
+}
+
+
+/*
+ *
+ *
+*/
+.section-wrapper{
+	height: 90vh;
+	padding: 20px 15%;
+}
+
+.major-sec, .minor-sec{
+	width: 68%;
+	height: 100%;
+}
+.profile-header{
+	height: 200px;
+	
+	background: url('../media/book.jpg');
+}
+.profile-header > div{
+	height: 100%;
+	
+	background: rgba(0, 0, 0, 0.2);
+}
+.profile-image{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	padding: 5px;
+	margin-top: -85px;
+	margin-left: 15px;
+	
+	background: #fff;
+}
+.profile-image > img{
+	border-radius: 50%;
+}
+
+.profile-info{
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-top: none;
+	
+	background: #fff;
+}
+.profile-info > div:last-child{
+	width: 80%;
+	height: 100px;
+	padding-left: 25px;
+	
+	background: #eee;
+}
+.profile-uname{
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+/*		*/
+.profile-content{
+	height: 480px;
+	margin-top: 20px;
+	border: 1px solid #ccc;
+	
+	background: #fff;
+}
+
+/*	*/
+
+.minor-sec{
+	float: right;
+	width: 30%;	
+}

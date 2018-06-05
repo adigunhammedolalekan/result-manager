@@ -1,0 +1,41 @@
+/*
+ *
+ *
+ */
+form{
+	
+}
+
+input{
+	box-sizing: border-box;
+	width: 100%;
+	margin: 7.5px 0px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	
+}
+
+
+/*
+ *
+ *
+*/
+.center-form-wrapper > form{
+	align-self: center;
+	
+	width: 450px;
+	border-radius: 5px;
+	padding: 15px;
+	
+	background: #fff;
+}
+.center-form-wrapper > form > input:first-child{
+	margin-top: 0px;
+}
+.center-form-wrapper > form > input:last-child{
+	background: #0872A3;
+	margin-bottom: 0;
+	
+	font-size: 1.05rem;
+	color: #fff;
+}
