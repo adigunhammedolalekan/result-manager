@@ -12,20 +12,21 @@ li{
 /*	*/
 .breakdown{
 	font-size: 0.95rem;
+	margin-bottom: 20px;
 }
 .breakdown > div{
-	text-align: center;
-	border: 1px solid #ccc;
+	border: 1px solid #888;
 	border-right: none;
 }
 .breakdown > div:last-child{
-	border-right: 1px solid #ccc;
+	border-right: 1px solid #888;
 }
 .breakdown ul > li{
 	padding-bottom: 10px;
 }
 .breakdown ul>li:first-child{
-	border-bottom: 1px solid #ccc;
+	text-align: center;
+	border-bottom: 1px solid #888;
 }
 #course-codes-wrap{
 	width: 18%;
