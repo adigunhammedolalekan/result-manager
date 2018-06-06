@@ -6,10 +6,6 @@
  * Time: 2:19 AM
  */
 
-    $credentials =
-        array('DB_HOST' => 'localhost',
-              'DB_NAME' => 'rms',
-              'DB_USERNAME' => 'root',
-              'DB_PASSWORD' => '');
+    $credentials = array('DB_HOST' => 'localhost', 'DB_NAME' => 'rms', 'DB_USERNAME' => 'root','DB_PASSWORD' => '');
 
 ?>
